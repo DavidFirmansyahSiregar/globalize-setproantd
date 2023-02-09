@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.3.53",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.2.0",
+    "cldr": "^7.3.0",
+    "cldr-data": "^36.0.1",
     "globalize": "^1.7.0",
     "i18n": "^0.15.1",
     "react": "^18.2.0",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
   }
 }
